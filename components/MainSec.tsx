@@ -1,5 +1,5 @@
 import Image from "next/image"
-import mainPfp from '../public/dummy.png'
+import mainPfp from '../public/main.webp'
 import { HiOutlineCheckBadge } from 'react-icons/hi2'
 import data from '../data.json'
 

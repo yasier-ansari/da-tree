@@ -38,7 +38,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <main className="max-w-7xl mx-auto -mt-8 mb-12  ">
+      <main className="max-w-7xl mx-auto flex flex-col -mt-8 mb-12  ">
         <Mainsec></Mainsec>
         <div className="flex items-center justify-center space-x-4 md:space-x-8 mx-auto mt-8">
           {

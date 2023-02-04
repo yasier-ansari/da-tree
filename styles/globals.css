@@ -62,6 +62,7 @@ a {
   .idxdiv{
     @apply relative min-h-screen;
   }
+
   /* navbar component */
   .navbar {
     @apply z-10 flex max-w-3xl w-[90%] sm:w-[85%] md:w-9/12 lg:w-7/12 items-center transition-all duration-300 rounded-full p-2 bg-opacity-70 backdrop-blur-[8px] mx-auto bg-white sticky left-0 top-4 justify-between;
@@ -115,8 +116,11 @@ a {
   }
 
   /* socialLink component */
+  .iconCont{
+    @apply mx-auto bg-gradient-to-tr from-purple-100 to-rose-100/30 shadow-sm lg:bg-none lg:hover:shadow-xl lg:hover:bg-gradient-to-tr lg:hover:from-rose-100/50 lg:hover:to-purple-100/60 rounded-md p-1 lg:shadow-sm lg:p-2;
+  }
   .socIcon {
-    @apply w-6 h-6 md:w-[30px] md:h-[30px];
+    @apply w-6 h-6 md:w-[30px] md:h-[30px] group-hover:scale-[1.125] ;
   }
   .strokeIcon{
     @apply stroke-[1.5px];
@@ -195,3 +199,5 @@ a {
 
 
 }
+
+/* add your plain css here */

@@ -1,7 +1,7 @@
 import { FiLinkedin, FiGithub, FiInstagram, FiMail, FiTwitter, FiFacebook, FiCodepen, FiDribbble, FiSend, FiTwitch, FiYoutube, FiFigma } from 'react-icons/fi'
-import { SiHashnode, SiLeetcode, SiBuymeacoffee, SiCodechef, SiCodingninjas, SiFandom, SiFiverr, SiMastodon, SiStackoverflow, SiCodeforces } from 'react-icons/si'
-import { FaSlack, FaMediumM } from 'react-icons/fa';
-import { SlSocialBehance, SlSocialReddit, SlSocialTumblr, SlSocialSpotify } from 'react-icons/sl'
+import { SiHashnode, SiLeetcode, SiBuymeacoffee, SiCodechef, SiCodingninjas, SiFandom, SiFiverr, SiMastodon, SiCodeforces } from 'react-icons/si'
+import { FaMediumM } from 'react-icons/fa';
+import { SlSocialBehance, SlSocialReddit, SlSocialTumblr } from 'react-icons/sl'
 import { DiStackoverflow } from 'react-icons/di'
 import { TbBrandSlack, TbBrandSpotify } from 'react-icons/tb'
 
@@ -13,7 +13,7 @@ interface SocialLink {
 
 const SocialLink = ({ url, linkName }: SocialLink) => {
     return (
-        <a href={url} target="_blank" rel="noreferrer noopener" >
+        <a href={url} target="_blank" rel="noreferrer noopener" className="iconCont group" >
             {
                 linkName == 'twitter' && (
                     <FiTwitter className="socIcon strokeIcon " />
@@ -49,7 +49,6 @@ const SocialLink = ({ url, linkName }: SocialLink) => {
                     <SiLeetcode className="socIcon " />
                 )
             }
-            {/* dfsf */}
             {
                 linkName == "facebook" && (
                     <FiFacebook className="socIcon strokeIcon " />

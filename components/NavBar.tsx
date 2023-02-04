@@ -37,7 +37,7 @@ const Navbar = () => {
             <button onClick={() => {
                 window.scrollTo(0, -520);
             }} >
-                <Image src={data.img} width={50} height={50} alt='navImage' className="navImg" />
+                <Image src={data.mainImg} width={50} height={50} alt='navImage' className="navImg" />
             </button>
             <div className="navHead" >
                 <span className="font-inter" >@</span>{data.at}
