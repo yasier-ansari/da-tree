@@ -1,0 +1,72 @@
+{
+    "name": "Jhon Doe",
+    "at": "Jhon-doe",
+    "headProf": "Profession",
+    "prof": [
+        "Profession1",
+        "Profession2",
+        "Profession3"
+    ],
+    "subHead": "I am a dummy text made by human ... definitely not AI",
+    "img": "/dummy.png",
+    "links": [
+        {
+            "title": "ShowCase1",
+            "url": "https://github.com/yasier-ansari/da-tree",
+            "img": "/dummy.png"
+        },
+        {
+            "title": "ShowCase2",
+            "url": "https://github.com/yasier-ansari/da-tree",
+            "img": "/dummy.png"
+        },
+        {
+            "title": "ShowCase3",
+            "url": "https://github.com/yasier-ansari/da-tree",
+            "img": "/dummy.png"
+        },
+        {
+            "title": "ShowCase4",
+            "url": "https://github.com/yasier-ansari/da-tree",
+            "img": "/dummy.png"
+        },
+        {
+            "title": "ShowCase5",
+            "url": "https://github.com/yasier-ansari/da-tree",
+            "img": "/dummy.png"
+        }
+    ],
+    "socials": [
+        {
+            "linkName": "linkedin",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        },
+        {
+            "linkName": "github",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        },
+        {
+            "linkName": "mail",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        },
+        {
+            "linkName": "buymeacoffee",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        },
+        {
+            "linkName": "slack",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        },
+        {
+            "linkName": "spotify",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        },
+        {
+            "linkName": "instagram",
+            "url": "https://github.com/yasier-ansari/da-tree"
+        }
+    ],
+    "webLink": "https://personal-da-tree.vercel.app/",
+    "comp": "google",
+    "compUrl": "https://google.com"
+}

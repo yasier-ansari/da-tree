@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply p-0 m-0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  @apply bg-emerald-200;
+}
+
+::-webkit-scrollbar {
+  /* height: 10px;
+  width: 6px;
+  border-radius: 1px solid #d5d5d5; */
+  @apply h-2 w-[6px] rounded-md border-gray-100/20;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-rose-200/50;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-purple-400/50 rounded-md;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-rose-300
+}
+
+.trans{
+  transition-timing-function: cubic-bezier(0.5, 0.67, 0.9, -0.95);
+}
+
+
+@layer components {
+
+  /* index page */
+  .socLinkCont{
+    @apply flex items-center justify-center space-x-4 md:space-x-8 mx-auto mt-8;
+  }
+  .linkBarCont{
+    @apply flex items-center font-medium flex-col space-y-5 justify-center mt-12 px-4 md:px-40 lg:px-80;
+  }
+  .idxMain{
+    @apply max-w-7xl mx-auto -mt-8 mb-12;
+  }
+  .idxdiv{
+    @apply relative min-h-screen;
+  }
+  /* navbar component */
+  .navbar {
+    @apply z-10 flex max-w-3xl w-[90%] sm:w-[85%] md:w-9/12 lg:w-7/12 items-center transition-all duration-300 rounded-full p-2 bg-opacity-70 backdrop-blur-[8px] mx-auto bg-white sticky left-0 top-4 justify-between;
+  }
+  .navImg {
+    @apply rounded-full
+  }
+  .navHead{
+    @apply text-xl font-bold;
+  }
+  .navShare{
+    @apply w-[25px] h-[25px] stroke-[1.5px] transition-all duration-100 ease-in-out;
+  }
+  .navShareContainer{
+    @apply p-2 rounded-full ;
+  }
+  .navSharenoScroll{
+    @apply visible bg-white/70 hover:bg-white/50 stroke-black;
+  }
+  .navShareScroll{
+    @apply bg-gray-900;
+  }
+
+  /* footer component */
+  .footer{
+    @apply w-full px-12 mb-8 mt-12 md:pt-12 md:px-40 lg:pt-16;
+  }
+  .footImgCont{
+    @apply flex space-x-2 items-baseline justify-center mx-auto w-max px-4;
+  }
+  .footImg{
+    @apply contrast-[0.35] hover:contrast-100 h-auto w-auto ;
+  }
+  .line{
+    @apply bg-gray-400 h-[0.1rem] rounded-full  mx-auto my-8 w-[70%] md:w-[50%] lg:w-[40%] xl:w-[35%] ;
+  }
+  .footText{
+    @apply flex hover:text-purple-600 justify-center text-sm mx-auto w-max items-center flex-col mt-8;
+  }
+  .footIconCont{
+    @apply flex space-x-[0.15rem] text-[0.6rem] md:text-xs items-center font-bold;
+  }
+  .footIcon{
+    @apply w-4 h-4 group-hover:stroke-purple-600;
+  }
+  .footTouch{
+    @apply flex space-x-2 justify-center mt-1 select-none;
+  }
+  .footHead{
+    @apply font-semibold text-xs md:text-sm;
+  }
+
+  /* socialLink component */
+  .socIcon {
+    @apply w-6 h-6 md:w-[30px] md:h-[30px];
+  }
+  .strokeIcon{
+    @apply stroke-[1.5px];
+  }
+
+  /* linkBar component */
+  .ancCont{
+    @apply w-full font-bold hover:font-[900] rounded-lg hover:scale-[1.04] transition-all duration-500  bg-purple-200 
+  }
+  .linkBarCont{
+    @apply flex w-full p-1 justify-between items-center;
+  }
+  .linkBarImgCont{
+    @apply flex justify-between items-center
+  }
+  .linkBarImg{
+    @apply rounded-md object-contain;
+  }
+  .copyCont{
+    @apply bg-gray-100/50 rounded-md lg:invisible group-hover:visible p-2 mr-2
+  }
+  .copy{
+    @apply w-[20px] h-[20px] stroke-[1.5px]
+  }
+
+
+  /* mainSec Component */
+  .mainImgCont{
+    @apply flex flex-col items-center justify-center mx-auto;
+  }
+  .mainImg{
+    @apply rounded-full m-4 select-none;
+  }
+  .mainHead{
+    @apply flex space-x-1 tracking-tight items-center font-nan font-medium text-base md:text-lg text-center text-purple-600;
+  }
+  .badge{
+    @apply h-[20px] w-[20px] stroke-[2px] stroke-purple-500 fill-white;
+  }
+  .at{
+    @apply font-inter font-bold;
+  }
+  .mainTextCont{
+    @apply flex flex-col items-center justify-center mx-auto mt-4 px-8 sm:px-12;
+  }
+  .mainProf{
+    @apply text-lg text-center font-bold select-none;
+  }
+  .mainSubCont{
+    @apply text-center text-gray-600 font-bold md:w-[70%] lg:w-[50%];
+  }
+  .compLink{
+    @apply text-rose-400 lg:text-purple-400 hover:text-pink-500 font-bold;
+  }
+
+  /* linkBar component */
+  .linkBarCont {
+    @apply w-full font-bold hover:font-[900] rounded-lg hover:scale-[1.04] transition-all duration-300 bg-purple-200;
+  }
+
+  .linkDivCont{
+    @apply flex w-full p-1 justify-between items-center;
+  }
+  .linkImgCont{
+    @apply flex justify-between items-center;
+  }
+  .linkImg{
+    @apply rounded-md object-cover h-12 w-12;
+  }
+  .copyBtn{
+    @apply bg-gray-100/50 rounded-md lg:invisible group-hover:visible p-2 mr-2
+  }
+  .copyIcon{
+    @apply w-[20px] h-[20px] stroke-[1.5px];
+  }
+
+
+}
