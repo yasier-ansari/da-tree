@@ -1,5 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
+  <img src="./public/hack-ccelerate.webp" />
  </a>
 </p>
 <h3 align="center">Da-tree</h3>
@@ -19,7 +20,6 @@
 <h4 align="center"> Introducing da-tree, the next-generation linktree alternative that lets coders and tech enthusiasts build their own custom linktree-style websites in a breeze. No more generic templates or clunky interfaces - da-tree gives you the power to spin up a da-tree website by simply changing the .json file. 
 </h4>
 <br/>
-<br />
 <h4>With da-tree, you have complete control over your website's look and feel. Whether you want to tweak the CSS using TailwindCSS, create custom components, or dive into the code and learn Next.js, the choice is yours. Whether you're looking to showcase your portfolio, promote your business, or share your passions with the world, da-tree makes it easier than ever. So why wait? Showcase the world your potential through da-tree today!</h4>
 
 ## 📝 **Table of Contents**
@@ -270,6 +270,8 @@ da-tree
 - [TypeScript](https://www.typescriptlang.org/) - Javascript with TypeSafety
 - [TailwindCSS](https://tailwindcss.com/) - Custom .less CSS library
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+
+## 🪴 **Usage** <a name = "usage"></a>
 
 ## ✍️ **Authors** <a name = "authors"></a>
 
