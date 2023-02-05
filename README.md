@@ -131,6 +131,9 @@ npm run start
 <!-- spins up a local terminal --/>
 ```
 
+viola, you have the this beautiful pastel color palette ready for you 
+![screencapture-localhost-3000-2023-02-05-15_53_40](https://user-images.githubusercontent.com/76240365/216813601-d7e15d17-de4d-4de8-a332-9bf565c56dbc.png)
+
 - ### **_Update your data.json_**
 
 > make appropriate changes to this file so that the website can properly display your profile
@@ -205,6 +208,11 @@ _*Now paste this url in data.json `"webLink" : "...paste here"`*_
 and Voila, you have completed the data.json updation 🎊
 if you want to tweak your images , continue to the below section, otherwise you can skip it
 
+after some changes, you can make your website look like this 
+ 
+![screencapture-personal-da-tree-vercel-app-2023-02-05-15_56_52](https://user-images.githubusercontent.com/76240365/216813806-823bd097-0e9d-4e7f-b83a-6fd926133a75.png)
+
+
 ## 🎈 **Customize** <a name="customize"></a>
 
 - ### **_image_**
@@ -272,6 +280,9 @@ da-tree
 - [NodeJs](https://nodejs.org/en/) - Server Environment
 
 ## 🪴 **Usage** <a name = "usage"></a>
+
+I have made my personal da-tree website which you can access at this url [Da-tree](https://personal-da-tree.vercel.app/)
+
 
 ## ✍️ **Authors** <a name = "authors"></a>
 
