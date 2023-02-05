@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![Hackathon](https://img.shields.io/badge/hackathon-mlh-orange.svg)](http://hackathon.url.com)
+
 [![Status](https://img.shields.io/badge/status-active-success.svg)](https://da-tree.vercel.app)
 [![GitHub Issues](https://img.shields.io/github/issues/yasier-ansari/da-tree/issues.svg)](https://github.com/yasier-ansari/da-tree/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yasier-ansari/da-tree.svg)](https://github.com/yasier-ansari/da-tree/pulls)
@@ -287,6 +287,13 @@ da-tree
 ## 🪴 **Usage** <a name = "usage"></a>
 
 I have made my personal da-tree website which you can access at this url [Da-tree](https://personal-da-tree.vercel.app/)
+
+
+https://user-images.githubusercontent.com/76240365/216826041-6f4a5c29-897f-4684-a96d-9ef614b3abac.mp4
+
+![da-tree](https://user-images.githubusercontent.com/76240365/216826055-8faee304-9ee7-4e99-9ccf-c1b450191fa6.gif)
+
+
 
 
 ## ✍️ **Authors** <a name = "authors"></a>
