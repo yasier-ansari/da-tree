@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-  <img src="./public/hack-ccelerate.webp" />
+  <img src="https://i.imgur.com/AZ2iWek.png" />
  </a>
 </p>
 <h3 align="center">Da-tree</h3>
